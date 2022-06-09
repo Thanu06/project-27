@@ -52,6 +52,12 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background("grey");
+	
+	rope1.display();
+	rope2.display();
+	rope3.display();
+	rope4.display();
+	rope5.display();
   
   	bobObject1.display();
 	bobObject2.display();
@@ -60,14 +66,6 @@ function draw() {
 	bobObject5.display();
 	roofObject.display();
 
-	rope1.display();
-	rope2.display();
-	rope3.display();
-	rope4.display();
-	rope5.display();
-
-  
- 
 }
 
 function keyPressed(){
